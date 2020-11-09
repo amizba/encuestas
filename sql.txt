@@ -1,0 +1,16 @@
+CREATE TABLE `datos` (
+  `encid` int(11) NOT NULL auto_increment,
+  `encprg` varchar(50) default NULL,
+  `encrpt1` varchar(50) default NULL,
+  `encrpt2` varchar(50) default NULL,
+  `encrpt3` varchar(50) default NULL,
+  `encrpt4` varchar(50) default NULL,
+  `encval1` int(11) NOT NULL default '0',
+  `encval2` int(11) NOT NULL default '0',
+  `encval3` int(11) NOT NULL default '0',
+  `encval4` int(11) NOT NULL default '0',
+  `enctot` int(11) NOT NULL default '0',
+  PRIMARY KEY  (`encid`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1 AUTO_INCREMENT=2 ;
+
+INSERT INTO `datos` VALUES (1, 'Programación Web', 'PHP', 'ASP', 'ASPX', 'JSP', 34, 13, 4, 16, 67);
